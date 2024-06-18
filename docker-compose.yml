@@ -11,3 +11,4 @@ services:
       - "8081:8081"
     environment:
       ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__PgSQL: "Server=bisp11440.cny84qssq2qn.ap-southeast-1.rds.amazonaws.com;Port=5432;Database=WealthTrack;User Id=postgres;Password=mItYPSycHEsp;"
